@@ -373,8 +373,6 @@ init_db()
 
 if __name__ == "__main__":
     port = int(os.environ.get('PORT',5000))
-<<<<<<< HEAD
     app.run(host ='0.0.0.0',port=port)
-=======
-    app.run(host='0.0.0.0',port=port)
->>>>>>> 3e406249059f0335cdbb2d5158beb075b5c3f7e1
+    
+
